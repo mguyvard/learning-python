@@ -26,18 +26,3 @@ class Restaurant:
         
         
         
-restaurant = Restaurant("le fouquet", "carribean")
-restaurant.set_number_served(23)
-print(f"The restaurant has served {restaurant.number_served} clients")
-
-print(f"The restaurant has served {restaurant.increment_number_served(5)}")        
-        
-        
-# my_restaurant = Restaurant("le fouquet", "high-end")
-# my_restaurant.describe_restaurant()
-
-# your_restaurant = Restaurant("le florville", "casual")
-# your_restaurant.describe_restaurant()
-
-# his_restaurant = Restaurant("le pemba", "take-out")
-# his_restaurant.describe_restaurant()
