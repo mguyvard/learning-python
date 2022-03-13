@@ -15,12 +15,12 @@ for i in range(1, 11):
     
 print("/------------------------------------------/")
 
-my_list = ["g", 10, 34, 23, "a", 78, "w", 12, 1, "c", 9, 0, 29, 100, "e"]
+# my_list = ["g", 10, 34, 23, "a", 78, "w", 12, 1, "c", 9, 0, 29, 100, "e"]
 
 i = 1
 while i <= 5:
     success = 0
-    trials = len(range(1, 3_000))
+    trials = len(range(1, 3_000_000))
     for value in range(1, 101):   
         if choice(my_list) == "e":
             success += 1
