@@ -15,4 +15,10 @@ with open(file_path) as file_name:
     lines = file_name.readlines()
 for line in lines:
     print(line.rstrip())
-    
+
+print("----------------------------------------")
+
+with open(file_path) as file:
+    new_file = file.read()
+in_c = new_file.replace("Python", "C")
+print(in_c)
