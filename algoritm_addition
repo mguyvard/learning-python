@@ -1,0 +1,14 @@
+ while true:
+ 	request to enter number1 or 'q'
+ 	while number1 != a number and number1 != 'q':
+ 		request to enter a  correct number
+ 	if number1 == 'q':
+ 		break
+ 	else:
+ 		request to enter number2 or 'q'
+ 		while number2 != a number and number2 != 'q':
+ 			request to enter a  correct number
+ 		if number2 == 'q':
+ 			break
+ 		else:
+ 			print(The sum of number1 and number2 is sum(number1, number2))
